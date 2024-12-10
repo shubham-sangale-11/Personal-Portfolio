@@ -14,6 +14,8 @@ import npm from "../../img/npm.svg";
 import database from "../../img/database.png";
 import cypress from "../../img/cypress.webp";
 import postman from "../../img/postman.png";
+import bootstrap from "../../img/bootstrap.svg";
+import rdbms from "../../img/rdbms.svg";
 
 export const skill = [
   {
@@ -32,37 +34,41 @@ export const skill = [
     img: react,
     title: "React",
   },
-  {
-    img: "https://cdn.worldvectorlogo.com/logos/next-js.svg",
-    title: "Next JS",
-  },
-  {
-    img: redux,
-    title: "Redux",
-  },
-  {
-    img: typescript,
-    title: "Typescript",
-  },
-  {
-    img: chakra,
-    title: "Chakra",
-  },
-  {
-    img: materialui,
-    title: "Materialui",
-  },
+  // {
+  //   img: "https://cdn.worldvectorlogo.com/logos/next-js.svg",
+  //   title: "Next JS",
+  // },
+  // {
+  //   img: redux,
+  //   title: "Redux",
+  // },
+  // {
+  //   img: typescript,
+  //   title: "Typescript",
+  // },
+  // {
+  //   img: chakra,
+  //   title: "Chakra",
+  // },
+  // {
+  //   img: materialui,
+  //   title: "Materialui",
+  // },
   {
     img: "https://i.imgur.com/8xILRKD.png",
     title: "Tailwind CSS",
   },
+  // {
+  //   img: nodejs,
+  //   title: "NodeJs",
+  // },
+  // {
+  //   img: express,
+  //   title: "Express",
+  // },
   {
-    img: nodejs,
-    title: "NodeJs",
-  },
-  {
-    img: express,
-    title: "Express",
+    img: bootstrap,
+    title: "Bootstrap",
   },
   {
     img: mongodb,
@@ -80,12 +86,16 @@ export const skill = [
     img: database,
     title: "DS & Algo",
   },
-  {
-    img: cypress,
-    title: "Cypress",
-  },
+  // {
+  //   img: cypress,
+  //   title: "Cypress",
+  // },
   {
     img: postman,
     title: "Postman",
+  },
+  {
+    img: rdbms,
+    title: "RDBMD",
   },
 ];

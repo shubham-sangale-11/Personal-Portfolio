@@ -13,12 +13,13 @@ const Footer = () => {
       />
       <div className="f-content">
         <span>
-          Designed and build by Debobrota Haldar, 2022 All rights reserved.
+          Designed and build by Shubham Sangale, 2024 All rights reserved.
         </span>
         <div className="f-icons">{/*  add social media icons */}</div>
       </div>
     </div>
   );
 };
+// oj
 
 export default Footer;

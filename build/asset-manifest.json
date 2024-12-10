@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.17e7ee05.css",
-    "main.js": "/static/js/main.5cc9d513.js",
-    "static/media/timecamp.png": "/static/media/timecamp.4dd98446f5dff71dd62f.png",
-    "static/media/modesens.png": "/static/media/modesens.3d0637011d2605461e86.png",
-    "static/media/me.png": "/static/media/me.246d05b10e0aabfd9339.png",
+    "main.css": "/static/css/main.7d8e8957.css",
+    "main.js": "/static/js/main.b22a3d26.js",
+    "static/media/me.png": "/static/media/me.1153c7f244ff14cf7740.png",
+    "static/media/finance.png": "/static/media/finance.5d1fc8db92a776d37b36.png",
     "static/media/Debobrota_haldar_resume.pdf": "/static/media/Debobrota_haldar_resume.b8e96e7e6bb014dc32ff.pdf",
-    "static/media/groww.png": "/static/media/groww.a969a15ff5925ee4a633.png",
     "static/media/chakra.png": "/static/media/chakra.15320604467d004df871.png",
+    "static/media/schedule.png": "/static/media/schedule.fcc6c9359add296a2d7e.png",
     "static/media/wave2.png": "/static/media/wave2.bf5c2da41eadeb1dea2a.png",
     "static/media/typescript.png": "/static/media/typescript.17936c69824e11a996c4.png",
     "static/media/database.png": "/static/media/database.24991eee32623f453b1c.png",
-    "static/media/D1.png": "/static/media/D1.faad3b4633d2037964a3.png",
     "static/media/cypress.webp": "/static/media/cypress.bb8c9887bc48838c8d07.webp",
     "static/media/contact.svg": "/static/media/contact.ec03def613ffe59fb4ce334fcc107c2e.svg",
     "static/media/github.png": "/static/media/github.a855c3975c028d8069f5.png",
@@ -25,15 +23,17 @@
     "static/media/express.svg": "/static/media/express.4925c0127df8857c18b38329795ce88f.svg",
     "static/media/css.svg": "/static/media/css.39769a8bd378bf410d6b381a8d88fa35.svg",
     "static/media/git.svg": "/static/media/git.c08353563539c6459b353f29d8dd7bf2.svg",
+    "static/media/bootstrap.svg": "/static/media/bootstrap.9b73317c6be0129637632817252de447.svg",
     "static/media/html.svg": "/static/media/html.8664168d5bc90b1a24396f85aadbf623.svg",
+    "static/media/rdbms.svg": "/static/media/rdbms.329e93283083208f8d84e22471e373bc.svg",
     "static/media/materialui.svg": "/static/media/materialui.87264df237ee700ba78bb58ff701a6d3.svg",
     "static/media/circle.svg": "/static/media/circle.5627b84e3e421ff98551.svg",
     "static/media/npm.svg": "/static/media/npm.87689eab730642c86d2b01f3ef4a19e3.svg",
-    "main.17e7ee05.css.map": "/static/css/main.17e7ee05.css.map",
-    "main.5cc9d513.js.map": "/static/js/main.5cc9d513.js.map"
+    "main.7d8e8957.css.map": "/static/css/main.7d8e8957.css.map",
+    "main.b22a3d26.js.map": "/static/js/main.b22a3d26.js.map"
   },
   "entrypoints": [
-    "static/css/main.17e7ee05.css",
-    "static/js/main.5cc9d513.js"
+    "static/css/main.7d8e8957.css",
+    "static/js/main.b22a3d26.js"
   ]
 }

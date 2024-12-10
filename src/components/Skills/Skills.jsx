@@ -16,7 +16,7 @@ const Works = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
-
+// ok 
   return (
     <div className="main_div" id="works" data-aos="zoom-out">
       <span style={{ color: darkMode ? "white" : "" }} className="heading">

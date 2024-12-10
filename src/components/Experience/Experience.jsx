@@ -12,6 +12,7 @@ const Experience = () => {
   useEffect(() => {
     Aos.init({ duration: 1500 });
   }, []);
+  // ok/
 
   return (
     <div
@@ -24,7 +25,7 @@ const Experience = () => {
         <div
           className="circle"
           style={{ color: darkMode ? "var(--orange)" : "" }}>
-          40+
+          10+
         </div>
         <span style={{ color: darkMode ? "white" : "" }}>completed </span>
         <span>Projects</span>

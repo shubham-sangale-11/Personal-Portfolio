@@ -17,9 +17,12 @@ const Toggle = () => {
       <Sun />
       <div
         className="t-button"
-        style={darkMode ? { left: "2px" } : { right: "2px" }}></div>
+        style={darkMode ? { left: "2px" } : { right: "2px" }}
+      ></div>
     </div>
   );
 };
 
 export default Toggle;
+
+// ok

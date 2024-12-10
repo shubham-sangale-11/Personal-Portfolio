@@ -7,7 +7,7 @@ import { themeContext } from "../../Context";
 import Resume from "./Debobrota_haldar_resume.pdf";
 import { Typewriter } from "react-simple-typewriter";
 import SmoothList from "react-smooth-list";
-import {HiDownload} from "react-icons/hi"
+import { HiDownload } from "react-icons/hi";
 
 const Intro = () => {
   // Transition
@@ -30,7 +30,7 @@ const Intro = () => {
               </div>
             </span>
 
-            <span className="animate-charcte name anim">Debobrota Haldar</span>
+            <span className="animate-charcte name anim">Shubham Sangale</span>
             <h2 className="full_stack_h2 anim">
               I'm a
               <span className="full_stack anim">
@@ -47,38 +47,43 @@ const Intro = () => {
             </h2>
           </div>
           <button
-            onClick={() =>
-              window.open(
-                "https://drive.google.com/file/d/1Qer-lZNmSkChsNX6hAn94ylyP_PSJHbs/view?usp=sharing"
-              )
-            }
-            className="resum rounded-sm flex bg-red-500 p-1 pl-3 pr-3  text-white hover:text-red-500 hover:bg-white animate-bounce hover:border-x-2 hover:border-red-500">
+            // onClick={() =>
+            //   window.open(
+            //     "https://drive.google.com/file/d/1Qer-lZNmSkChsNX6hAn94ylyP_PSJHbs/view?usp=sharing"
+            //   )
+            // }
+            className="resum rounded-sm flex bg-red-500 p-1 pl-3 pr-3  text-white hover:text-red-500 hover:bg-white animate-bounce hover:border-x-2 hover:border-red-500"
+          >
             <a
-              href={Resume}
-              download={"Debobrota_haldar_resume"}
-              rel="noreferrer"
-              target="_blank" className="pr-0">
-              Resume 
+              href="/"
+              // download={"Debobrota_haldar_resume"}
+              // rel="noreferrer"
+              // target="_blank"
+              className="pr-0"
+            >
+              Resume
             </a>
-              <HiDownload/>
+            <HiDownload />
           </button>
 
           <div className="i-icons">
             <a
-              href="https://github.com/iamdebobrota"
+              href="https://github.com/shubham-sangale-11"
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+            >
               <img src={Github} alt="github" />
             </a>
             <a
-              href="https://www.linkedin.com/in/debobrota-haldar-3340651aa/"
+              href="https://www.linkedin.com/in/shubham-sangale-81568722a/"
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+            >
               <img src={LinkedIn} alt="linkdin" />
             </a>
           </div>
         </div>
-
+{/* ok */}
         <div className="i-right">
           <img src={me} alt="me" draggable="false" className="my_img anim" />
         </div>

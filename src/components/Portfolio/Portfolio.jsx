@@ -13,7 +13,7 @@ const Portfolio = () => {
   useEffect(() => {
     Aos.init({ duration: 1500 });
   }, []);
-
+// ok 
   return (
     <div className="portfolio" id="portfolio" data-aos="fade-right">
       <span style={{ color: darkMode ? "white" : "" }} className="port_span">

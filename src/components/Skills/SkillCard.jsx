@@ -28,3 +28,4 @@ const SkillCard = () => {
 };
 
 export default SkillCard;
+// ok 

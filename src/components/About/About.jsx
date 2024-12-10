@@ -8,6 +8,7 @@ import "aos/dist/aos.css";
 
 const About = () => {
   // context
+  // ok
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
 
@@ -20,11 +21,13 @@ const About = () => {
       className="services"
       id="services"
       data-aos-duration="5000"
-      data-aos-delay="600">
+      data-aos-delay="600"
+    >
       <span
         style={{ color: darkMode ? "white" : "" }}
         className="about_me anim"
-        data-aos="flip-left">
+        data-aos="flip-left"
+      >
         {" "}
         All{" "}
         <span data-aos="flip-left" className="me">
@@ -36,32 +39,36 @@ const About = () => {
         <div className="awesome " data-aos="slide-right">
           <ul className="about_article anim">
             <li>
-              Hello! My name Debobrota Haldar and I enjoy creating things that
-              live on the internet.
+              Hello! My name is Shubham Sangale, and I enjoy crafting innovative
+              web applications that enhance user experience.
             </li>
             <br />
             <li>
-              I'm a passionate Developer, with strong administrative and
-              communication skills, good attention to detail and the ability to
-              write efficient code using MERN Stack.
+              I'm a passionate Developer, proficient in the MERN stack, with
+              strong problem-solving skills, team management experience, and an
+              eagerness to learn and adapt to new technologies.
             </li>
             <br />
             <li>
-              My interest in web development started back last year when I was
-              trying to edit things on the web, that taught me a lot about HTML
-              & CSS.
+              My journey into web development began during my college days,
+              where I built a crowdsourced city improvement platform. That
+              project sparked my interest in creating transparent and impactful
+              applications.
             </li>
             <br />
             <li>
-              As I grow and flourish as a Developer, one thing which keeps me
-              going is my inquisitiveness for discovering new things every day.
+              As I grow and flourish as a Developer, I am driven by my curiosity
+              to explore new advancements, like generative AI and teachable
+              machine models.
             </li>
             <br />
             <li>
-              Fast Forwarding to today, I built a number of web applications and
-              4 major projects. Learned a great deal about teamwork, leadership,
-              and communication. After months of rigorous training, here I am
-              looking for an opportunity as a full stack web developer.
+              Fast-forward to today, I have built a number of responsive web
+              applications, led teams in construct weeks, and completed rigorous
+              training in the MERN stack. With my knowledge of React,
+              JavaScript, and practical experience in startups, I am now seeking
+              a role as a frontend developer to contribute to innovative
+              solutions.
             </li>
             <br />
           </ul>

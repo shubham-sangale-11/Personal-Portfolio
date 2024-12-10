@@ -26,7 +26,8 @@ const Contact = () => {
       style={{ color: darkMode ? "white" : "" }}
       id="contact"
       data-aos-duration="5000"
-      data-aos-delay="500">
+      data-aos-delay="500"
+    >
       <div className="heding_cont">
         <span style={{ color: darkMode ? "white" : "" }} className="get_touch">
           Get in Touch
@@ -40,44 +41,47 @@ const Contact = () => {
           className="massge_img"
           data-aos="slide-left"
         />
-
+{/* ok */}
         <div className="contact-form" data-aos="slide-right">
           <div className="c-right">
             <div className="up_cont">
               <BsFillTelephoneFill />
-              <p>+91 9733423697</p>
+              <p>+91 7507804197</p>
             </div>
             <div>
               <HiOutlineMail className="md" />
-              <p>iamdebobrota@gmail.com</p>
+              <p>shubhamsap777@gmail.com</p>
             </div>
             <div>
               <BsGithub />
-              <p>https://github.com/iamdebobrota</p>
+              <p>https://github.com/shubham-sangale-11</p>
             </div>
 
             <div className="con_img">
               <a
-                href="https://www.linkedin.com/in/debobrota-haldar-3340651aa/"
+                href="https://www.linkedin.com/in/shubham-sangale-81568722a/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="linkdin">
+                className="linkdin"
+              >
                 <BsLinkedin />
                 <p>LinkedIn</p>
               </a>
               <a
-                href="https://github.com/iamdebobrota"
+                href="https://github.com/shubham-sangale-11"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="git_con">
+                className="git_con"
+              >
                 <BsGithub />
                 <p>GitHub</p>
               </a>
               <a
-                href="https://github.com/iamdebobrota"
+                href="https://github.com/shubham-sangale-11"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="git_con gmail">
+                className="git_con gmail"
+              >
                 <CgMail />
                 <p>Gmail</p>
               </a>
@@ -128,7 +132,8 @@ export function ContactForm() {
         type="submit"
         disabled={state.submitting}
         data-aos="flip-up"
-        className="button_su bg-red-600 hover:cursor-pointer">
+        className="button_su bg-red-600 hover:cursor-pointer"
+      >
         Submit
       </button>
     </form>

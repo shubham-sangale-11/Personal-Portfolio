@@ -2,8 +2,8 @@ import React, { useContext, useEffect } from "react";
 import Toggle from "../Toggle/Toggle";
 import "./Navbar.css";
 import { Link } from "react-scroll";
-import D1 from "../../img/D1.png";
-import Resume from "../Intro/Debobrota_haldar_resume.pdf";
+// import D1 from "../../img/mylogo.jpg";
+// import Resume from "../Intro/Debobrota_haldar_resume.pdf";
 
 import { themeContext } from "../../Context";
 import { GoThreeBars } from "react-icons/go";
@@ -32,15 +32,17 @@ const Navbar = () => {
         style={{
           color: darkMode ? "white" : "",
           backgroundColor: darkMode ? "#0f1624" : "white",
-        }}>
+        }}
+      >
         <div
           className="n-left"
           style={{
             color: darkMode ? "white" : "",
             backgroundColor: darkMode ? "#0f1624" : "white",
-          }}>
+          }}
+        >
           <Link to="intro" spy={true} smooth={true} className="list">
-            <img src={D1} alt="d" className="n-name" data-aos="slide-left" />
+            {/* <img src={D1} alt="d" className="n-name" data-aos="slide-left" /> */}
           </Link>
           <Toggle className="toggle" />
         </div>
@@ -74,24 +76,26 @@ const Navbar = () => {
               </li>
               <li>
                 <button
-                  onClick={() =>
-                    window.open(
-                      "https://drive.google.com/file/d/1iipXOGQncc15wUiJiPC44fWnpApTTBiu/view?usp=drive_link"
-                    )
-                  }
-                  className="resume-btn rounded-3xl bg-red-500 p-1 pl-3 pr-3  text-white hover:text-red-500 hover:bg-white transition-all border-x-2 border-red-500 hover:border-x-2 hover:border-red-500">
+                  // onClick={() =>
+                  //   window.open(
+                  //     "https://drive.google.com/file/d/1iipXOGQncc15wUiJiPC44fWnpApTTBiu/view?usp=drive_link"
+                  //   )
+                  // }
+                  className="resume-btn rounded-3xl bg-red-500 p-1 pl-3 pr-3  text-white hover:text-red-500 hover:bg-white transition-all border-x-2 border-red-500 hover:border-x-2 hover:border-red-500"
+                >
                   <a
-                    href={Resume}
-                    download={"Debobrota_haldar_resume"}
-                    rel="noreferrer"
-                    target="_blank">
+                    href="/"
+                    // download={"Debobrota_haldar_resume"}
+                    // rel="noreferrer"
+                    // target="_blank"
+                  >
                     Resume
                   </a>
                 </button>
               </li>
             </ul>
           </div>
-
+{/* ok */}
           <div className="hide_menu">
             <GoThreeBars
               onClick={() => {
@@ -102,13 +106,10 @@ const Navbar = () => {
           </div>
 
           <ul
-          
-          // className={!nav ? "new_hide" : "Show_li"}
-          className={`w-[70%] text-[34px] top-0 right-0 dark:bg-gray-400 p-5 fixed h-full z-40 ease-in-out duration-500 ${
-            nav ? "show_li translate-x-0 " : "nav_hide translate-x-full"
-          }`}
-
-          
+            // className={!nav ? "new_hide" : "Show_li"}
+            className={`w-[70%] text-[34px] top-0 right-0 dark:bg-gray-400 p-5 fixed h-full z-40 ease-in-out duration-500 ${
+              nav ? "show_li translate-x-0 " : "nav_hide translate-x-full"
+            }`}
           >
             <IoClose
               onClick={() => {
@@ -122,7 +123,8 @@ const Navbar = () => {
                 to="intro"
                 spy={true}
                 smooth={true}
-                className="list">
+                className="list"
+              >
                 Home
               </Link>
             </li>
@@ -147,7 +149,7 @@ const Navbar = () => {
               </Link>
             </li>
 
-              <p className="text-xs text-center mt-32">Created by Debobrota</p>
+            <p className="text-xs text-center mt-32">Created by Debobrota</p>
           </ul>
         </div>
       </div>

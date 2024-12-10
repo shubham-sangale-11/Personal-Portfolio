@@ -13,3 +13,5 @@ const Card = ({ emoji, heading, detail, color }) => {
 };
 
 export default Card;
+
+// ok 
